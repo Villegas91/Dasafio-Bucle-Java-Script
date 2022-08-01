@@ -1,5 +1,7 @@
 //Registro de usuario y asignación de legajo, si no se ingresa un nombre
-// se hace un break
+// se activa el bucle while hasta que el usuario lo haga.
+// Mediante el Alert visualizamos el legajo asignado y
+//mediante el console.log visualizamos la lista completa.
 
 for (let i = 1; i <= 10; i++) {
   let ingresarNombre = prompt("Registrese con su nombre");
