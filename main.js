@@ -1,10 +1,11 @@
-// Pedir número mediante prompt y sumarle otro número en cada repetición,realizando una
-// salida por cada resultado
-// - Pedir un texto mediante prompt, concatenar un valor en cada repetición, realizando una salida
-// por cada resultado, hasta que se ingresa “ESC”.
-// - Pedir un número por prompt, repetir la salida del mensaje “Hola” la cantidad de veces
-// ingresada.
+//Registro de usuario y asignación de legajo, si no se ingresa un nombre
+// se hace un break
 
-for (i = 0; i >= 20; i++) {
-  console.log(i);
+for (let i = 1; i <= 10; i++) {
+  let ingresarNombre = prompt("Registrese con su nombre");
+  while (ingresarNombre == false) {
+    ingresarNombre = prompt("Debe ingresar un nombre");
+  }
+  alert(" Legajo" + i + " Nombre: " + ingresarNombre);
+  console.log("Legajo" + i + " Nombre: " + ingresarNombre);
 }
